@@ -53,7 +53,8 @@
   border: 1px solid #4e75ff;
 }
 
-.search-button {
+.search-button,
+.load-more-button {
   padding: 8px 16px;
   border: none;
   background-color: #4e75ff;
@@ -66,8 +67,14 @@
   letter-spacing: 0.04em;
 }
 
-.search-button:hover {
+.search-button:hover,
+.load-more-button:hover {
   background-color: #6c8cff;
+}
+
+.load-more-button {
+  display: block;
+  margin: 20px auto;
 }
 
 .gallery {
